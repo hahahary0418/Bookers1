@@ -13,3 +13,81 @@
  *= require_tree .
  *= require_self
  */
+
+body{
+  margin: 33px;
+  color: #333333;
+  font-size: 13px;
+  display: block;
+  line-height: 18px;
+}
+
+h1{
+  font-size: 2em;
+  font-weight: bold;
+}
+
+p{
+  margin: 33px;
+}
+
+strong{
+  font-weight: bold;
+}
+
+a{
+  color: #000000;
+}
+
+a:visited{
+  color: #666666;
+}
+
+table{
+  border-collapse: separate;
+  text-indent: initial;
+  border-spacing: 2px;
+}
+
+th{
+  display: table-cell;
+  vertical-align: inherit;
+  font-weight: bold;
+  unicode-bidi: isolate;
+  padding-bottom: 5px;
+}
+
+td{
+  padding-bottom: 7px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+h2{
+  font-weight: bold;
+}
+
+form{
+  display: block;
+}
+
+label{
+  cursor: default;
+  display: block;
+}
+
+div{
+  display: block;
+}
+
+.field{
+  margin-bottom: 10px;
+}
+
+.action{
+  margin-bottom: 10px
+}
+
+#notice{
+  color: green;
+}
